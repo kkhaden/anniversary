@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import config from './config'; // Import config file
 
 // Dynamically import only the required message images
-const imageFiles = import.meta.glob('../assets/MessageImage*.png');
+const imageFiles = import.meta.glob('../assets/MessageImage*.jpg');
 
 function Message() {
   const navigate = useNavigate();
@@ -18,8 +18,8 @@ function Message() {
         Object.keys(imageFiles)
           .sort((a, b) => {
             // Extract the number from filenames (e.g., MessageImage1.png -> 1)
-            const aNum = parseInt(a.match(/MessageImage(\d+)\.png/)?.[1] || 0, 10);
-            const bNum = parseInt(b.match(/MessageImage(\d+)\.png/)?.[1] || 0, 10);
+            const aNum = parseInt(a.match(/MessageImage(\d+)\.jpg/)?.[1] || 0, 10);
+            const bNum = parseInt(b.match(/MessageImage(\d+)\.jpg/)?.[1] || 0, 10);
             return aNum - bNum; // Ensure they are sorted correctly
           })
           .slice(0, config.messageGallery.length) // Only take as many images as needed

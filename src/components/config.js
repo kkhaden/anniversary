@@ -6,9 +6,9 @@ const config = {
   */
 
   // 🔐 Passcode Page
-  correctPasscode: "0000", // Change this to any 4-digit code (the passcode for access)
+  correctPasscode: "0330", // Change this to any 4-digit code (the passcode for access)
   passcodeTitle: "Enter Passcode", // Title displayed on the passcode entry page
-  successMessage: "Yayy!! :)", // Message shown upon successful passcode entry
+  successMessage: "Such a smartie :)", // Message shown upon successful passcode entry
   redirectMessage: "Redirecting...", // Message displayed while redirecting after success
   incorrectPasscodeMessage: "Incorrect passcode, hint: our anniversary date!", // Message shown for incorrect passcode
   cancelButtonText: "Cancel", // Text for the cancel button
@@ -17,14 +17,14 @@ const config = {
   searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
   trendingTitle: "Trending searches", // Title for the trending searches section
   trendingSearches: [
-    "Why is my bf so cute?", // Example trending search query
-    "Why does Rheina love him more?", // Another example query
-    `Rheina's birthdate (coz her bf forgets)`, // A personalized trending search
+    "Why is my gf so beautiful?", // Example trending search query
+    "1000 reasons why Tyler is perfect", // Another example query
+    `Haden's greatest hits`, // A personalized trending search
   ],
   proTip: 'Pro tip: try searching "How long have we been together?" ;)', // Helpful tip for users
 
   // ⏳ Timer Page
-  anniversaryDate: "2024-10-18", // 📅 Set your anniversary date here (used for the timer)
+  anniversaryDate: "2024-03-30", // 📅 Set your anniversary date here (used for the timer)
   timerTitle: "We've been together for:", // Title displayed on the timer page
   timerMessage: "... and still counting <3", // Message shown alongside the timer
   timeUnits: {
@@ -48,38 +48,38 @@ const config = {
   musicTitle: "Songs that remind me of you", // Title for the music page
   musicGallery: [
     {
-      title: "Heavenly", // Title of the song
-      artist: "Cigarettes After Sex", // Artist of the song
+      title: "Butterflies", // Title of the song
+      artist: "Michael Jackson", // Artist of the song
       left: "5%", // Positioning on the page
       top: "5%", // Positioning on the page
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
+      title: "Blue Dream",
+      artist: "Jhené Aiko",
       left: "40%",
       top: "15%",
     },
     {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
+      title: "Get You",
+      artist: "Daniel Caesar, Kali Uchis",
       left: "15%",
       top: "40%",
     },
     {
-      title: "Last Night on Earth",
-      artist: "Green Day",
+      title: "See You Again",
+      artist: "Tyler, The Creator, Kali Uchis",
       left: "30%",
       top: "75%",
     },
     {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
+      title: "Lovin' You",
+      artist: "Minnie Riperton",
       left: "5%",
       top: "65%",
     },
     {
-      title: "Sparks",
-      artist: "Coldplay",
+      title: "Congratulations",
+      artist: "Mac Miller, Bilal",
       left: "25%",
       top: "90%",
     },
@@ -90,8 +90,8 @@ const config = {
       top: "50%",
     },
     {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
+      title: "Infrunami",
+      artist: "Steve Lacy",
       left: "10%",
       top: "25%",
     },
@@ -100,17 +100,18 @@ const config = {
     // 📝 Message Recap Page
     messageTitle: "Our Messages", // Title for the messages recap page
     messageGallery: [
-      { title: "September 3, 2024", description: "A beautiful day to remember." }, // Message entry
-      { title: "October 5, 2024", description: "Cherishing moments together." },
-      { title: "December 25, 2024", description: "Christmas with love ❤️" },
+      { title: "February 4, 2024", description: "Our first message" }, // Message entry
+      { title: "EVERYDAY", description: "Our HDawg days" },
+      { title: "May 9, 2024", description: "Our First I love you (in the messages)❤️" },
     ],
   
     // 📸 Picture Recap Page
     pictureTitle: "Our Pictures", // Title for the pictures recap page
     pictureGallery: [
-      { title: "January 1, 2024", description: "New Year's Celebration 🎉" }, // Picture entry
-      { title: "February 14, 2024", description: "Valentine's Day 💕" },
-      { title: "March 10, 2024", description: "Beach trip memories 🏖️" },
+      { title: "April 8, 2024", description: "First Road Trip!🎉" }, // Picture entry
+      { title: "February 17, 2024", description: "Halloween with Peb" },
+      { title: "October 31, 2024", description: "Amazing birthday celebration" },
+      { title: "September 24, 2024", description: "Our First Date 💕" },
     ],
   
 
@@ -118,7 +119,7 @@ const config = {
   loveLetterMessage: "Hi, I love you so much💖", // Message displayed on the love letter page
 
   // 🎇 Closing Page
-  closingMessage: "Thank you for everything, my love! 💖 Wishing us many more wonderful years together.", // Closing message displayed
+  closingMessage: "Thank you for the amazing year, my love! 💖 Wishing us many more wonderful years together.", // Closing message displayed
 
   /* 
   ████████████████████████████████████████
@@ -141,7 +142,9 @@ const config = {
   // 🔍 Search Queries (Only change if modifying search functionality)
   correctSearchQueries: [
     "How long have we been together?", // Example of a correct search query
-    "how long have we been together", // Another example of a correct search query
+    "how long have we been together",
+    "how long have we been together?", // Another example of a correct search query
+    "How long have we been together",
   ],
 };
 
