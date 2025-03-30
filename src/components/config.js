@@ -51,7 +51,8 @@ const config = {
       title: "Butterflies", // Title of the song
       artist: "Michael Jackson", // Artist of the song
       left: "5%", // Positioning on the page
-      top: "5%", // Positioning on the page
+      top: "5%", // Positioning on the page 
+      videoUrl: "https://www.youtube.com/watch?v=wthgd_Rg1qg",
     },
     {
       title: "Blue Dream",
@@ -109,14 +110,14 @@ const config = {
     pictureTitle: "Our Pictures", // Title for the pictures recap page
     pictureGallery: [
       { title: "April 8, 2024", description: "First Road Trip!🎉" }, // Picture entry
-      { title: "February 17, 2024", description: "Halloween with Peb" },
-      { title: "October 31, 2024", description: "Amazing birthday celebration" },
-      { title: "September 24, 2024", description: "Our First Date 💕" },
+      { title: "October 31, 2024", description: "Halloween with Peb" },
+      { title: "September 21, 2024", description: "Amazing birthday celebration" },
+      { title: "February 17, 2024", description: "Our First Date 💕" },
     ],
   
 
   // 💌 Love Letter Page
-  loveLetterMessage: "Hi, I love you so much💖", // Message displayed on the love letter page
+  loveLetterMessage: "I can't wait to see the amazing things that you accomplish.💖", // Message displayed on the love letter page
 
   // 🎇 Closing Page
   closingMessage: "Thank you for the amazing year, my love! 💖 Wishing us many more wonderful years together.", // Closing message displayed
